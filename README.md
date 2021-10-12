@@ -21,10 +21,12 @@ This plugin renders a `<blockquote>` with semantic internal markup.
 
 1. Render a `<blockquote>`.
 2. Support (optional) complex citation: author/speaker, source text, source URL.
-3. Integrated https://github.com/tacc-wbomar/Core-CMS-Plugin-Offset/ support.⚠️
+3. Integrated https://github.com/tacc-wbomar/Core-CMS-Plugin-Offset/ support.\*
 
-> ⚠️&thinsp; This feature may become deprecated. Consider adding `o-offset-content--left` manually via "Advanced settings" → "ATTRIBUTES".
+> \* This feature is mandatory (thus requires [`taccsite_offset`][tacc-offset]), but should become optional in a future release.
 
 ## Caveats
 
-- Requires [`taccsite_offset`](https://github.com/tacc-wbomar/Core-CMS-Plugin-Offset/).
+- Requires [`taccsite_offset`][tacc-offset].
+
+[tacc-offset]: https://github.com/tacc-wbomar/Core-CMS-Plugin-Offset/

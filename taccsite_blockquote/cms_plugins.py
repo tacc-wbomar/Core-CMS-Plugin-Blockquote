@@ -3,6 +3,7 @@ from cms.plugin_pool import plugin_pool
 from django.utils.translation import gettext_lazy as _
 
 from taccsite_cms.contrib.helpers import concat_classnames
+# TODO: Only import if plugin is installed
 from taccsite_cms.contrib.taccsite_offset.cms_plugins import get_direction_classname
 
 from .models import TaccsiteBlockquote
@@ -37,6 +38,7 @@ class TaccsiteBlockquotePlugin(CMSPluginBase):
                 ('cite_text', 'cite_url'),
             )
         }),
+        # TODO: Only render if plugin is installed
         (_('Layout'), {
             'fields': (
                 'offset',
@@ -58,6 +60,7 @@ class TaccsiteBlockquotePlugin(CMSPluginBase):
 
         classes = concat_classnames([
             's-blockquote',
+            # TODO: Only use if plugin is installed
             get_direction_classname(instance.offset),
             instance.attributes.get('class'),
         ])
