@@ -1,49 +1,17 @@
 ## Texas Advanced Computing Center
-# Django CMS Plugin: "Plugin Name"
+# Django CMS Plugin: "Blockquote"
 
-This plugin [does something].
+This plugin renders a `<blockquote>` with semantic internal markup.
 
-- __`__plugin_name__`__: `taccsite_example`
-- __`__PluginName__`__: `TaccsiteExample`
-- __"Plugin Name"__: "Example"
-
-## For Plugin Developer
-
-After cloning this repository for your plugin:
-
-1. Follow https://github.com/tacc-wbomar/Core-CMS-Plugin/wiki/Core-CMS-Plugin-Development-Quick-Start.
-2. Remove this section from your repository's `README.md`.
-
+- __`__plugin_name__`__: `taccsite_blockquote`
+- __`__PluginName__`__: `TaccsiteBlockquote`
+- __"Plugin Name"__: "Blockquote"
 
 ## Quick Start
 
 1. Follow https://github.com/tacc-wbomar/Core-CMS-Plugin/wiki/Core-CMS-Plugin-Usage-Quick-Start.
 
-> The next steps are sample steps that should be replaced with plugin-specific steps, if any.
-
-2. Any step that is specific to the plugin, such as the steps after this.
-
-    ```
-    # provide minimal example code that may help the reader
-    ```
-
-3. Add a URLconf in your Django project's `urls.py` like this:
-
-    ```
-        url(r'^sysmon/', include('__plugin_name__.urls')),
-    ```
-
-4. Add `__plugin_name_some_prop__` property and value to your Django project's settings:
-
-    ```
-    __plugin_name_some_prop__ = 'specific_value'
-    ```
-
-5. Visit [http://your.project.url.host/some_plugin_url_path/](http://127.0.0.1:8000/ "The URL for your environment may be different than this.").
-
 ## Usage
-
-> This section is sample usage steps that should be replaced with plugin-specific steps, or be removed.
 
 1. Add instance of plugin to a page.
 1. Configure the plugin instance.
@@ -51,6 +19,12 @@ After cloning this repository for your plugin:
 
 ## Features
 
-> This section should describe the feature of the plugin or be removed.
+1. Render a `<blockquote>`.
+2. Support (optional) complex citation: author/speaker, source text, source URL.
+3. ⚠️ Integrated https://github.com/tacc-wbomar/Core-CMS-Plugin-Offset/ support.\*
 
-…
+> \* This feature may become deprecated. Consider adding `o-offset-content--left` manually via "Advanced settings" → "ATTRIBUTES".
+
+## Caveats
+
+- Requires [`taccsite_offset`](https://github.com/tacc-wbomar/Core-CMS-Plugin-Offset/).
