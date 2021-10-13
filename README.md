@@ -19,7 +19,7 @@ This plugin renders a `<blockquote>` with semantic internal markup.
 
 ## Features
 
-1. Render a `<blockquote>` with content in semantic markup.
+1. Render a `<blockquote>` with content using semantic markup.
 2. Support (optional) complex citation: author/speaker, source text, source URL.
 3. Uses supported, integrated plugin instances to incorporate extra features.
     <details>
