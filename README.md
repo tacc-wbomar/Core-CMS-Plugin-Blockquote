@@ -32,7 +32,7 @@ This plugin renders a `<blockquote>` with semantic internal markup.
 
 ## Caveats
 
-- Requires [`taccsite_offset`][tacc-offset].\*
+1. Requires [`taccsite_offset`][tacc-offset].\*
 
 > \* Support is optional but plugin is assummed, so plugin is required. This should change in a future release.
 
