@@ -34,6 +34,6 @@ This plugin renders a `<blockquote>` with semantic internal markup.
 
 - Requires [`taccsite_offset`][tacc-offset].\*
 
-> \* Support is mandatory, but should become optional in a future release.
+> \* Support is optional but plugin is assummed, so plugin is required. This should change in a future release.
 
 [tacc-offset]: https://github.com/tacc-wbomar/Core-CMS-Plugin-Offset/
