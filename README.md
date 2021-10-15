@@ -3,8 +3,9 @@
 
 This plugin renders a `<blockquote>` with semantic internal markup.
 
-- __`__plugin_name__`__: `taccsite_blockquote`
-- __`__PluginName__`__: `TaccsiteBlockquote`
+- __`__dist-name__`__: `taccsite_blockquote`
+- __`__package_name__`__: `taccsite_blockquote`
+- __`__ClassName__`__: `TaccsiteBlockquote`
 - __"Plugin Name"__: "Blockquote"
 
 ## Quick Start
