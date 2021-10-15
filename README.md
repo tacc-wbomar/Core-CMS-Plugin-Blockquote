@@ -3,8 +3,8 @@
 
 This plugin renders a `<blockquote>` with semantic internal markup.
 
-- __`__dist-name__`__: `taccsite_blockquote`
-- __`__package_name__`__: `taccsite_blockquote`
+- __`__dist-name__`__: `djangocms-tacc-blockquote`
+- __`__package_name__`__: `djangocms_tacc_blockquote`
 - __`__ClassName__`__: `TaccsiteBlockquote`
 - __"Plugin Name"__: "Blockquote"
 
@@ -27,13 +27,13 @@ This plugin renders a `<blockquote>` with semantic internal markup.
 
     | feature | supported by |
     | :- | :- |
-    | offset blockquote from surrounding content | [`taccsite_offset`][tacc-offset] |
+    | offset blockquote from surrounding content | [`djangocms_tacc_offset`][tacc-offset] |
 
     </details>.
 
 ## Caveats
 
-1. Requires [`taccsite_offset`][tacc-offset].\*
+1. Requires [`djangocms_tacc_offset`][tacc-offset].\*
 
 > \* Support is optional but plugin is assummed, so plugin is required. This should change in a future release.
 

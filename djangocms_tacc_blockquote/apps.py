@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 class TaccsiteBlockquoteConfig(AppConfig):
-    name = 'taccsite_blockquote'
+    name = 'djangocms_tacc_blockquote'
     verbose_name = 'Blockquote'

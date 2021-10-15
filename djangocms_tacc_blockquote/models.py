@@ -7,7 +7,7 @@ from djangocms_attributes_field import fields
 
 # TODO: Only import if plugin is installed
 # HELP: How to resolve DIRECTION_CHOICES whether plugin is installed or not?
-from taccsite_offset.models import DIRECTION_CHOICES
+from djangocms_tacc_offset.models import DIRECTION_CHOICES
 
 class TaccsiteBlockquote(CMSPlugin):
     """

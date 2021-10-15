@@ -4,7 +4,7 @@ from django.utils.translation import gettext_lazy as _
 
 from taccsite_cms.contrib.helpers import concat_classnames
 # TODO: Only import if plugin is installed
-from taccsite_offset.cms_plugins import get_direction_classname
+from djangocms_tacc_offset.cms_plugins import get_direction_classname
 
 from .models import TaccsiteBlockquote
 
